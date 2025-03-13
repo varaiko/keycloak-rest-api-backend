@@ -18,6 +18,14 @@ Before running the application, following have to be installed:
 - PostgreSQL database
 - Keycloak for JWT authentication (on Docker for example)
 
+## Update application.properties with the database and KeyCloak credentials:
+```
+  spring.datasource.url=jdbc:postgresql://<db_url>
+  spring.datasource.username=<db_username>
+  spring.datasource.password=<db_password>
+  jwt.auth.converter.resource-id=<keycloak_realm_client>
+```
+
 ## Keycloak setup
 
 1. Create a New Realm

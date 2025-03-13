@@ -10,10 +10,10 @@ Project integrates with Keycloak for authentication and handles RESTful APIs. It
 
 ## Prerequisites
 
-Before running the application, ensure that you have the following installed:
+Before running the application, following have to be installed:
 
 - Java 8 or later
 - Maven
 - IntelliJ IDEA (or any IDE of your choice)
 - PostgreSQL database
-- Keycloak for JWT authentication
+- Keycloak for JWT authentication (on Docker for example)
